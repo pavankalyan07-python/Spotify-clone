@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline v/s Block</title>
+</head>
+<body>
+
+    <div>
+        <a href="https://www.google.co.in/">Google</a>
+        <a href="https://www.netflix.com/in/">Netflix</a>
+    </div>
+    <a href="https://www.facebook.com/">facebook</a>
+    <h2>O<sup>2</sup></h2>
+    <h2>O<sub>2</sub></h2>
+    <h2>a&hearts;b</h2>
+    <h2>a &amp; b</h2>
+    <h2>a &gt; b</h2>
+    <h2>a &quot; b</h2>
+    <h1 style="color:rgba(254, 113, 135, 0.768);">The sky is cloudy &#9729; &amp; it will rain &#9748; today.</h1>
+    <video width="200px" height="200px" controls>
+        <source src="library.mp4" type="video/mp4">
+        
+    </video>
+    <table border ="black">
+        <caption>Food Menu</caption>
+        <!--  Row-1 -->
+        <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>
+           
+        </tr>
+        <!-- Row-2 -->
+        <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+        <!-- Row-3 -->
+        <tr>
+            <td>Frooti</td>
+            <td>₹20</td>
+            <td>0.14</td>
+        </tr>
+        <!-- Row-4 -->
+        <tr>
+            <td>Samosa</td>
+            <td>₹20</td>
+            <td>0.17</td>
+
+        </tr>
+        <!-- Row-5 -->
+        <tr>
+            <td>Chips</td>
+            <td>₹40</td>
+            <td>0.28</td>
+        </tr>
+        
+    </table>
+
+    <p>Practice question-07</p>
+    <table border="black">
+        <thead>A test table with merged cells</thead>
+
+        <tr>
+            <td rowspan="2"></td>
+            <th colspan="2">Average</th>
+            <th rowspan="2">RedEyes</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+        <!-- <tr></tr> -->
+    </table>
+    <hr>
+    <form action="/server">
+        <div>
+            <label for="username" >Username :</label>
+            <input type="text" name="username" id="username" placeholder="type here">
+        </div>
+        <div>
+            <label for="password" >Password :</label>
+            <input type="password" name="pass" id="password" placeholder="enter  your password">    
+        </div>
+        <div>
+           <label for="number">Number :</label>
+            <input type="number" placeholder="type here" id="number">    
+        </div>
+       
+       <label for="">
+        Time :
+        <input type="time">
+        <br>
+       </label>
+        <label for="">
+            Color :
+            <input type="color">
+        <br>
+        </label>
+        
+        <label for="">
+            Date :
+            <input type="date"> 
+        </label>
+        <div>
+            <button>submit</button>
+            <button type="submit">helloo</button>
+            <button type="reset">reset</button>
+            <button type="button">button</button>
+            <!-- <button type="submit"></button> -->
+        </div>
+      
+    </form>
+
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <!-- <label for="search">Search</label> -->
+       
+        <input type="text" name="search_query" placeholder="search in youtube" id="search">
+        <button>Search</button>
+    </form>
+    <hr>
+    <form action="https://www.google.co.in/search">
+        <input type="text" name="q" placeholder="search in google">
+        <button>Search</button>
+    </form>
+    <form action="/server">
+        <!-- <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label> -->
+        <br>
+        <input type="radio" name="fruit" id="radio" value="Apple">
+        <label for="radio">Apple</label>
+        <input type="radio" name="fruit" id="Mango" value="Mango">
+        <label for="Mango">Mango</label>
+        <input type="radio" name="fruit" id="Banana" value="Banana">
+        <label for="Banana">Banana</label>
+        <button>submit</button>
+        <hr>
+        <div>
+            Choose your profession
+            <select name="profession" id="profession">
+                <option value="none">select your option</option>
+                <option value="stu">Student</option>
+                <option value="dev">Developer</option>
+            </select>
+            <button>submit</button>
+            
+        </div>
+
+        <span>
+        <div>
+            <label for="range">Select your range</label>
+            <input type="range" id="range" min="0" max="100"name="vol">
+            <button>submit</button>
+            <label for="feedback">Please provide feedback</label>
+            <textarea name="feedback" id="text"></textarea>
+            <button>submit</button>
+        </div>
+    </span>
+    </form>
+    
+    <form action="/server.php">
+       <div>
+        <h2>Registration form</h2>
+        <input type="text" placeholder="First Name"  name="name">
+        <input type="text" placeholder="Last Name" name="name">
+       </div>
+       <div>
+        Please selec gender
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="femaler">Female</option>
+        </select>
+       </div>
+       <div>
+        Do you agree all terms of services? 
+        <input type="checkbox" name="services" selected>Yes, I agree
+        <button>Register</button>
+       </div>
+    </form>
+    <ul><h2>Food items</h2>    
+        <li>Bread</li>
+        <li>Jam</li>
+        <li>Frooti</li>
+        <li>Samosa</li>
+        <li>Dosa</li>
+    </ul>
+    <ol type="a"><h2>Food items</h2>    
+        <li>Bread</li>
+        <li>Jam</li>
+        <li>Frooti</li>
+        <li>Samosa</li>
+        <li>Dosa</li>
+    </ol>
+    <h2>Made with &hearts; by Pavan kalyan</h2>
+</body>
+</html>
