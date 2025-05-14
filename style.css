@@ -373,6 +373,7 @@ a{
     border-radius: 100px;
     height: 0.25rem;
 }
+
 .sound-bar::-webkit-slider-thumb{
     appearance: none;
     height: 16px;
